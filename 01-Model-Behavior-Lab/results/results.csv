@@ -1,0 +1,134 @@
+id,category,difficulty,prompt,expected,temperature,run,response,latency,expected_number,response_number,correct
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.0,1,"To convert pressure from pounds per square inch (psi) to bars, we can use the conversion factor:
+
+1 bar = 0.1450 psi
+
+So, to find out how many bars are equivalent to 35 psi, divide by this value:
+
+35 psi / 0носить 0.1450 psi/bar = 24.1379746835 bar (approximately)
+
+Therefore, 35 psi is approximately equal to 24.14 bars when rounded off to two decimal places.",37.836,2.413,24.14,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.0,2,"To convert pressure from pounds per square inch (psi) to bars, we can use the conversion factor:
+
+1 bar = 0.1450 psi
+
+So, to find out how many bars are equivalent to 35 psi, divide by this value:
+
+35 psi / 0носить 0.1450 psi/bar = 24.1379746835 bar (approximately)
+
+Therefore, 35 psi is approximately equal to 24.14 bars when rounded off to two decimal places.",20.599,2.413,24.14,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.0,3,"To convert pressure from pounds per square inch (psi) to bars, we can use the conversion factor:
+
+1 bar = 0.1450 psi
+
+So, to find out how many bars are equivalent to 35 psi, divide by this value:
+
+35 psi / 0носить 0.1450 psi/bar = 24.1379746835 bar (approximately)
+
+Therefore, 35 psi is approximately equal to 24.14 bars when rounded off to two decimal places.",20.263,2.413,24.14,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.5,1,"To convert PSI (pounds per square inch) into BAR, we can use the conversion factor that one Bar is equal to approximately 0.145038 PSI. Therefore:  
+
+Pressure(Bar)= Pressure(PSI)/conversion_factor   
+
+Substituting given values gives us:  
+
+= 35/0 end of text /0 start of text psi /0 bar conversion factor = 241.6978 Bar    
+
+So, approximately 35 PSI is equal to 241.7 BAR (rounded off).",21.179,2.413,241.7,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.5,2,"To convert from PSI (pounds per square inch) to bar, we can use the following conversion factor:
+
+1 PSI = 0.06894762 Bar  
+
+So for 35 PSI, it would be:
+
+35 PSI x 0thousand/bar*= ____.
+___ *(pounds per square inch)*
+
+___ *x .06894762 bar / (1 psi) = __.  
+_____ *hundreds of pounds per square inch*
+
+The result is approximately 2.41 Bar:
+
+35 x 0.06894762 = 2.4131662 bar",25.651,2.413,2.4131662,True
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.5,3,"To convert pounds per square inch (psi) to bars, you can use the conversion factor that 1 psi is equal to 0.0689476 bar. Therefore:
+
+
+35 psi * 0 end of scientific notation for precise calculation = 2.310666 bars.
+
+
+So, 35 psi is approximately equal to 2.31 bar when converted using this methodology.",15.012,2.413,2.31,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,1.0,1,"To convert PSI (pounds per square inch) to Bar, we need the conversion factor between these two units of pressure. One atmosphere is equivalent to approximately 14.6959 PSI or 0.98072 bars as one bar equals to about 1.033 atmospheres/PSI:
+
+Given that value (atm = psi x conversion factor) can be rewritten in terms of our desired units, where the pressure is measured using Bar instead of PSI and atmosphere are equivalent for this task:
+
+psi_to_bar = atm / 0.98072 or  1 bar= 14.6959 psi * (1/0.98072)     [atmospheres to bars]
+Now we can convert the given pressure of PSI into Bar:   35_psi = ____bar, where x is a variable representing converted value in bar unit as follows; 
+x= psi * (1/0.98072) or  35 / 0.98072 , substituting the values we get approximately:   
+Bar Pressure = ______66.74 bars     [or]      Bar Pressure = x bar, where as a final result pressure of given PSI (35 psi) is converted into BARs equivalent to about 66.74 bars .",50.833,2.413,66.74,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,1.0,2,"To convert pressure from pounds per square inch (psi) to bars, we need to know that 1 psi is equivalent to approximately 0.068947 bar. Therefore, using this conversion factor:
+
+Pressure = Force/Area × Conversion Factor
+                    PSI           BAR  
+Possessing only the pressure (force divided by area), we need not focus on that aspect here because it remains constant regardless of units used and cancels out during unit conversion. So, let'thy concentrate directly on converting psi to bar: 35 psi * 0.068947 = approximately 2.413. Hence the pressure exerted by this object in bars is roughly about 2.413 bars (to three decimal places).",27.392,2.413,2.413,True
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,1.0,3,"1 psi is approximately equal to 0.0689472 bar. Therefore, multiplying this conversion factor by the given value of pressure:
+
+35 psig x 0носино 0.0689472 баров
+
+= 2.413148 баров
+
+Rounding to two decimal places gives us a final answer of approximately **2.41 bar**.",15.442,2.413,2.41,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.0,1,"To convert grams to centigrams, we need to multiply the given value by 100 (since there are 100 centigrams in a gram). Therefore:
+
+9.5 g * 1 end = 950 cg
+
+So, 9.5 grams is equal to 950 centigrams.",12.093,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.0,2,"To convert grams to centigrams, we need to multiply the given value by 100 (since there are 100 centigrams in a gram). Therefore:
+
+9.5 g * 1 end = 950 cg
+
+So, 9.5 grams is equal to 950 centigrams.",11.921,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.0,3,"To convert grams to centigrams, we need to multiply the given value by 100 (since there are 100 centigrams in a gram). Therefore:
+
+9.5 g * 1 end = 950 cg
+
+So, 9.5 grams is equal to 950 centigrams.",11.466,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.5,1,"To convert grams (g) to centigrams (cg), we need to know that there are 100 centigrams in a gram. Therefore, we can use the following conversion factor:
+
+1 g = 100 cg
+
+Now multiply the given value by this conversion factor:
+
+9.5 g * (100 cg / 1 g) = 950 cg
+
+So, there are 950 centigrams in 9.5 grams.",16.813,950.0,9.5,False
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.5,2,"To convert grams to centigrams, we need to know that there are 100 centigrams in a gram. Therefore, we can multiply the given value by 100 to get the equivalent amount in centigrams:
+
+9.5 g * 1 end=0.95 cmg (since 1 g = 100 cg)
+
+So, there are 95 centigrams in 9.5 grams.",15.712,950.0,9.5,False
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.5,3,"To convert grams to centigrams, we need to multiply the given value by 100 since there are 100 centigrams in a gram. Therefore:
+
+9.5 g * 1degrees Celsius = 950 cg",10.035,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,1.0,1,"To convert grams to centigrams, we need to know that there are 100 centigrams in a gram. So to find out how many centigrams is equal to 9.5 grams:
+
+
+9.5 grams * 100 centigrams/gram = 950 centigrams
+
+
+Therefore, 9.5 grams are equivalent to 950 centigrams.",14.744,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,1.0,2,"To convert grams (g) to centigrams (cg), we can use the fact that there are 100 centigrams in a gram. So, given this conversion factor:
+
+9.5 g * (100 cg / 1 g) = 950 cg",10.053,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,1.0,3,"To convert from grams (g) to centigrams (cg), we need to use the conversion factor that there are 100 centigrams in a gram. Therefore, to convert 9.5 g into cg:
+
+
+\[ \text{grams} * \frac{\text{centigrams}}{\textdependent}\]
+
+
+So for this case:
+
+
+\[ 9.5\,g * \frac{100\,\text{cg}}{1\,g} = 950\,cg \]
+
+
+Thus, \( 9.5\,g \) is equal to \( 950\,cg \).",22.282,950.0,950.0,True

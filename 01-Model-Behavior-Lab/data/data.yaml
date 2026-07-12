@@ -1,0 +1,91 @@
+test_cases:
+
+  - id: TC001
+    category: unit_conversion
+    difficulty: easy
+    prompt: "Convert 35 psi to bar."
+    expected: "2.413 bar"
+
+  - id: TC002
+    category: unit_conversion
+    difficulty: easy
+    prompt: "Convert 9.5 grams to centigrams."
+    expected: "950 centigrams"
+
+  - id: TC003
+    category: unit_conversion
+    difficulty: easy
+    prompt: "Convert 4.5 grams to milligrams."
+    expected: "4500 milligrams"
+
+  - id: TC004
+    category: unit_conversion
+    difficulty: easy
+    prompt: "Convert 1 yard to centimeters."
+    expected: "91.44 centimeters"
+
+  - id: TC005
+    category: unit_conversion
+    difficulty: medium
+    prompt: "Convert 10 feet to meters and centimeters."
+    expected: "3 meters 4.8 centimeters"
+
+  - id: TC006
+    category: unit_conversion
+    difficulty: easy
+    prompt: "Convert 1 week to hours."
+    expected: "168 hours"
+
+  - id: TC007
+    category: unit_conversion
+    difficulty: easy
+    prompt: "Convert 3360 hours to weeks."
+    expected: "20 weeks"
+
+  - id: TC008
+    category: unit_conversion
+    difficulty: easy
+    prompt: "Convert 140 degrees Fahrenheit to Celsius."
+    expected: "60 degrees Celsius"
+
+  - id: TC009
+    category: unit_conversion
+    difficulty: easy
+    prompt: "Convert 32 degrees Fahrenheit to Celsius."
+    expected: "0 degrees Celsius"
+
+  - id: TC010
+    category: unit_conversion
+    difficulty: easy
+    prompt: "Convert 95 degrees Celsius to Fahrenheit."
+    expected: "203 degrees Fahrenheit"
+
+  - id: TC011
+    category: arithmetic
+    difficulty: medium
+    prompt: "Six years ago, the ratio of the ages of Vimal and Saroj was 6:5. Four years from now, the ratio of their ages will be 11:10. What is Saroj's present age?"
+    expected: "15 years"
+
+  - id: TC012
+    category: physics_basic
+    difficulty: easy
+    prompt: "A 5 kg object falls under gravity. What is the force acting on it?"
+    expected: "49 N"
+
+  - id: TC013
+    category: physics_basic
+    difficulty: medium
+    prompt: "A soccer ball is kicked with an initial velocity of 20 m/s at an angle of 30 degrees to the ground. What is the approximate maximum height reached by the ball?"
+    expected: "5 meters"
+
+  - id: TC014
+    category: physics_basic
+    difficulty: medium
+    prompt: "A car travels the first one-third of the distance between A and B at 30 km/h, the next one-third at 40 km/h, and the final one-third at 24 km/h. What is the average speed for the entire journey?"
+    expected: "30 km/h"
+
+  - id: TC015
+    category: physics_basic
+    difficulty: hard
+    prompt: "A ball is thrown vertically upward from the ground. It crosses a point at a height of 25 meters twice, with a time interval of 4 seconds between the two crossings. What was the initial velocity of the ball?"
+    expected: "30 m/s"

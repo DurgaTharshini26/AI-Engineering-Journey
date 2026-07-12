@@ -1,0 +1,134 @@
+id,category,difficulty,prompt,expected,temperature,run,response,latency,expected_number,response_number,correct
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.0,1,"To convert 35 psig (pounds per square inch) to bars, you need to multiply the pressure by 14.728:
+
+Pressure (psig) x 14.728 = Bar (B)
+
+So, to convert 35 psig (pounds per square inch) to bars, you would multiply it by 14.728:
+
+35 * 14.728 = 4906.67 Bars
+
+Note that the conversion factor for pressure from psi to bar is 14.728.",10.158,2.413,14.728,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.0,2,"To convert 35 psig (pounds per square inch) to bars, you need to multiply the pressure by 14.728:
+
+Pressure (psig) x 14.728 = Bar (B)
+
+So, to convert 35 psig (pounds per square inch) to bars, you would multiply it by 14.728:
+
+35 * 14.728 = 4906.67 Bars
+
+Note that the conversion factor for pressure from psi to bar is 14.728.",6.292,2.413,14.728,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.0,3,"To convert 35 psig (pounds per square inch) to bars, you need to multiply the pressure by 14.728:
+
+Pressure (psig) x 14.728 = Bar (B)
+
+So, to convert 35 psig (pounds per square inch) to bars, you would multiply it by 14.728:
+
+35 * 14.728 = 4906.67 Bars
+
+Note that the conversion factor for pressure from psi to bar is 14.728.",6.55,2.413,14.728,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.5,1,"To convert 35 psig (pounds per square inch) to bars, multiply the pressure by 760:
+
+Pressure * 760 = Bar value
+35 x 760 = 2,480
+
+Therefore, 35 psig (pounds per square inch) is equivalent to 2,480 bars.",3.956,2.413,480.0,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.5,2,"To convert 35 psig (pounds per square inch) to bar, you need to multiply it by 14.729:
+
+35 x 14.729 = 490.68 N/m² (Newtons per square meter)
+490.68 N/m² = 35 psig (pounds per square inch)
+
+You can also use the conversion factor of 1 PSI = 0.772 kg/cm², which is commonly used in engineering and physics.",5.723,2.413,0.772,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,0.5,3,"To convert 35 psia (pounds per square inch) to bar, you need to multiply the value by 14.729:
+
+35 * 14.729 = 506.895 bar
+
+Therefore, 35 psig (pounds per square inch) is equivalent to 506.895 bar.",4.068,2.413,506.895,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,1.0,1,"In the metric system, 35 PSI is equal to 218 MPa or 3576 N/m2. Therefore, converting from psig to bar will give you:
+
+Bar = (35 PSI * 1000 / 14.5) / 1.83
+
+Bars can be used as a standard unit of pressure measurement in several different areas such as construction and chemicals processing. In the United States, pressure is measured using bar. However, some countries (such as Japan and Germany) measure pressure by volume.",5.767,2.413,1.83,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,1.0,2,"To convert 35 psi (pounds per square inch) to bars, you can use the following conversion factor:
+
+bars = PSI x 2.016 = 945.389 N/m²
+
+So, for example, 35 psig = 945.389 N/m²
+
+Note that the imperial system (UK and US) uses pounds per square inch, while the metric system (European Union and many other countries) uses tons per square meter.",5.369,2.413,945.389,False
+TC001,unit_conversion,easy,Convert 35 psi to bar.,2.413 bar,1.0,3,"Sure, here's the conversion for you:
+
+To convert from pressure (psi) to atmospheres (abv), multiply the psi value by the factor of 1.83:
+
+1 PSI = 0.702 ATMOs (atmospheres)
+
+In other words, for a pressure measurement in pounds per square inch (psi) or force per square meter (N/m), you would multiply by the corresponding value for atmospheres:
+
+1 psi = 0.6214 ATMOs
+
+So, to convert from psi to bar, use this formula:
+
+BAR = PSI * 1.83 / 0.6214
+
+For example, if you have a pressure of 35 psi in pounds per square foot (psf), multiplying by the appropriate conversion factor would give you 3.6 ATMOs.",9.442,2.413,3.6,False
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.0,1,"To convert 9.5 grams (g) to centigrams, you need to multiply the g by 100:
+
+9.5 x 100 = 950 centigrams
+
+Therefore, 9.5 gram is equivalent to 950 centigrams.",3.418,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.0,2,"To convert 9.5 grams (g) to centigrams, you need to multiply the g by 100:
+
+9.5 x 100 = 950 centigrams
+
+Therefore, 9.5 gram is equivalent to 950 centigrams.",3.252,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.0,3,"To convert 9.5 grams (g) to centigrams, you need to multiply the g by 100:
+
+9.5 x 100 = 950 centigrams
+
+Therefore, 9.5 gram is equivalent to 950 centigrams.",3.623,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.5,1,"To convert 9.5 grams (g) to centigrams, multiply the number of grams by 100:
+
+9.5 x 100 = 950 centigrams
+
+Therefore, 9.5 gram(s) = 950 centigram(s).",3.736,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.5,2,"To convert 9.5 gram(s) to centigrams, you can use the conversion ratio of 1 gram = 0.01 kg:
+
+1 gram = 0.01 kg
+Multiply 9.5 grams by 0.01:
+
+9.5 grams x 0.01 = 0.0095 kg
+So, the conversion factor is 1 kg = 0.01 kg.
+Therefore, to convert 9.5 gram(s) to centigrams, you need to multiply by 1,000:
+
+9.5 g x 1,000 = 950.000 centigrams
+Therefore, the final answer is:
+
+9.5 g x 1,000 = 950.000 centigrams",9.093,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,0.5,3,"To convert 9.5 gram(s) to centigrams, you need to multiply the amount of grams by 100:
+
+9.5 x 100 = 950
+
+Therefore, 9.5 gram(s) is equivalent to 950 centigrams.",3.304,950.0,950.0,True
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,1.0,1,"To convert 9.5 grams (g) of mass to centigrams, multiply the number of grams by 100:
+
+Gram multiplied by 100 = Centimeter * 0.1
+Centimeter * 0.1 = Centigrams
+Centigrams = 9.5 g
+Centigrams per 100 grams = 95
+
+In other words, to convert 9.5 grams to centigrams, you multiply the number of grams by 95.",5.772,950.0,95.0,False
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,1.0,2,"To convert 9.5 gram(s) to centigrams, you would need to multiply 9.5 by 100:
+
+For example, if 9.5 grams are an ounce (oz), you can calculate the conversion ratio as follows:
+
+Converted amount = 9.5 * 100 = 950 oz
+Centigrams = 100 * 950 = 9500 centigrams
+
+Hope this helps! Let me know if you have any other questions.",5.609,950.0,9500.0,False
+TC002,unit_conversion,easy,Convert 9.5 grams to centigrams.,950 centigrams,1.0,3,"In metric system, 9.5 grams = 100 milligram (mg). To convert 9.5 gram(s) to centigrams, multiply the number of grams by 100:
+
+- In centimeters: 9.5 x 100 = 950 cm
+- In meters: 9.5 x 100 = 950 m
+- In kilograms: 9.5 x 1000 = 95,000 kg
+- In pounds: 9.5 x 32 = 28,421 lb (72.68 kg)
+
+Remember that the conversion factor for centimeters to meters and kilograms per square meter is about 0.0254, while the conversion factor for grams to kilograms is about 1: 1.",9.876,950.0,1.0,False
